@@ -21,7 +21,12 @@ a:visited{
 	background: #042658;
 }
 
-/*Test styling*/ 
+body{
+	width:90%;
+	
+}
+
+/*Text styling*/ 
 em + p{
 	font-family: 'Roboto', sans-serif;
 	color:#042658;
@@ -29,21 +34,27 @@ em + p{
 }
 
 em{
-	font-size: 1.4em; 
+	font-size: 1.3em; 
 	font-style: bold;
 	text-align: left;
 
 }
 
 h1{
-	text-decoration:underline;
+	font-family: 'Gruppo', cursive;
+	font-size: 4em;
+	border-bottom: 2px solid #042658;
 	color:#042658;
+	width:80%;
 
 }
 
 h2{
 	font-family: 'Lato', sans-serif;
 	font-style: none;
+	font-size: 2.5em;
+	text-indent: .5em;
+
 	color:#042658;
 }	
 
@@ -57,6 +68,7 @@ h3 p+em{
 h3{
 	font-family: 'Roboto', sans-serif;
 	color:#0267A7;
+	font-size: 1.5em;
 }
 
 footer{
@@ -67,10 +79,10 @@ footer{
 
 img{
 	float:right;
-	margin-right: 10em; 
-
-
+	margin-right: 2em; 
+	z-index: 1; 
 }
+
 img:hover{
 	
 transform:rotate(29deg);
@@ -79,6 +91,10 @@ transform:rotate(29deg);
 transition-timing-function: ease-in; 
 }
 
+section{
+	display: inline-block;
+	
+}
 
 		
 
@@ -92,7 +108,7 @@ transition-timing-function: ease-in;
 
 .color{
 	
-	width:90%;
+	
 	text-align: center;
 	font-size: 1em; 
 	color:white;
@@ -185,7 +201,9 @@ transition-timing-function: ease-in;
   margin-top:100px;
 }
 
-
+.logo{
+	width:100%;
+}
 
 /* backgrounds*/
 
@@ -219,6 +237,7 @@ transition-timing-function: ease-in;
 .patterns{
 	float:left;
 	text-align: center;
+	width:80%;
 
 }
 .pattern-1, .pattern-2{
@@ -229,15 +248,16 @@ transition-timing-function: ease-in;
 	color:white;
 }
 
-.palate{
+.palatte{
 	margin-left:2em;
+	float:left;
 }
 
 .text{
 	color:black;
 	font-family: 'Roboto', sans-serif;
 	display:inline-block;
-	width:60%;
+	width:80%;
 
 }
 
@@ -247,6 +267,11 @@ transition-timing-function: ease-in;
 	color:black;
 	background-color: red;
 }
+
+.top{
+	
+}
+
 
 .tp{
 
